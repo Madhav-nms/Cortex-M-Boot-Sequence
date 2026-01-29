@@ -21,7 +21,6 @@ This behavior is verified step by step using QEMU and GDB.
 | `asm.s` | Defines the vector table and the reset handler |
 | `map.ld` | Linker script that places the vector table at address `0x00000000` |
 | `Makefile` | Builds the .elf and launches QEMU with GDB support |
-| `asm.elf` | Final linked executable used by QEMU |
 | `asm.elf.lst` | Disassembly listing of the ELF |
 | `asm.elf.debug` | ELF debug and symbol information |
 | `images/` | GDB screenshots showing reset state and instruction execution |
