@@ -9,7 +9,9 @@ Using a minimal ARM assembly program and GDB, it shows:
 ## Aim 
 1. Loads SP (R13) from 0x00000000
 2. Loads PC (R15) from 0x00000004
-3. Starts executing instructions in the reset handler
+3. Starts executing instructions in the reset handler.
+
+
 This behavior is verified step by step using QEMU and GDB.
 
 ## File Overview 
